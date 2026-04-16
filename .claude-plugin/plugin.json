@@ -1,0 +1,10 @@
+{
+  "name": "repo-essentials",
+  "version": "1.0.0",
+  "description": "Universal repo safety, review, and writing skills for any project type",
+  "author": {
+    "name": "Lohith H G",
+    "email": "lohithhggjc@gmail.com"
+  },
+  "keywords": ["safety", "security", "review", "git", "writing", "audit", "changelog"]
+}
