@@ -1,0 +1,20 @@
+{
+  "name": "repo-essentials",
+  "owner": {
+    "name": "Lohith H G",
+    "email": "lohithhggjc@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "repo-essentials",
+      "source": "./",
+      "description": "Universal repo safety, review, and writing skills for any project type",
+      "version": "1.0.0",
+      "author": {
+        "name": "Lohith H G",
+        "email": "lohithhggjc@gmail.com"
+      },
+      "keywords": ["safety", "security", "review", "git", "writing", "audit", "changelog"]
+    }
+  ]
+}
