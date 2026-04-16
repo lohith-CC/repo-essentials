@@ -6,5 +6,7 @@
     "name": "Lohith H G",
     "email": "lohithhggjc@gmail.com"
   },
-  "keywords": ["nextjs", "react", "app-router", "server-components", "performance"]
+  "keywords": ["nextjs", "react", "app-router", "server-components", "performance"],
+  "skills": "skills",
+  "hooks": "hooks/hooks.json"
 }

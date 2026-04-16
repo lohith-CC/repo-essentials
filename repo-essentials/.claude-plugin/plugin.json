@@ -6,5 +6,19 @@
     "name": "Lohith H G",
     "email": "lohithhggjc@gmail.com"
   },
-  "keywords": ["safety", "security", "review", "git", "writing", "audit", "changelog"]
+  "keywords": ["safety", "security", "review", "git", "writing", "audit", "changelog"],
+  "skills": "skills",
+  "hooks": "hooks/hooks.json",
+  "mcpServers": {
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "${WORKSPACE_DIR:-/}"]
+    }
+  }
 }
