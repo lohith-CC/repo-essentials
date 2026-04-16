@@ -1,5 +1,5 @@
 {
-  "name": "repo-essentials",
+  "name": "claude-plugins",
   "owner": {
     "name": "Lohith H G",
     "email": "lohithhggjc@gmail.com"
@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "repo-essentials",
-      "source": "./",
+      "source": "./repo-essentials",
       "description": "Universal repo safety, review, and writing skills for any project type",
       "version": "1.0.0",
       "author": {
@@ -15,6 +15,28 @@
         "email": "lohithhggjc@gmail.com"
       },
       "keywords": ["safety", "security", "review", "git", "writing", "audit", "changelog"]
+    },
+    {
+      "name": "nextjs-essentials",
+      "source": "./nextjs-essentials",
+      "description": "Next.js specific skills and hooks — App Router, Server Components, performance, and security",
+      "version": "1.0.0",
+      "author": {
+        "name": "Lohith H G",
+        "email": "lohithhggjc@gmail.com"
+      },
+      "keywords": ["nextjs", "react", "app-router", "server-components", "performance"]
+    },
+    {
+      "name": "flutter-essentials",
+      "source": "./flutter-essentials",
+      "description": "Flutter and Dart specific skills and hooks — widget review, state management, and pub safety",
+      "version": "1.0.0",
+      "author": {
+        "name": "Lohith H G",
+        "email": "lohithhggjc@gmail.com"
+      },
+      "keywords": ["flutter", "dart", "widgets", "state-management", "pubspec"]
     }
   ]
 }

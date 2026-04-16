@@ -1,0 +1,10 @@
+{
+  "name": "flutter-essentials",
+  "version": "1.0.0",
+  "description": "Flutter and Dart specific skills and hooks — widget review, state management, and pub safety",
+  "author": {
+    "name": "Lohith H G",
+    "email": "lohithhggjc@gmail.com"
+  },
+  "keywords": ["flutter", "dart", "widgets", "state-management", "pubspec"]
+}

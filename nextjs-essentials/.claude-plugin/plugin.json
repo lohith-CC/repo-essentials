@@ -1,0 +1,10 @@
+{
+  "name": "nextjs-essentials",
+  "version": "1.0.0",
+  "description": "Next.js specific skills and hooks — App Router, Server Components, performance, and security",
+  "author": {
+    "name": "Lohith H G",
+    "email": "lohithhggjc@gmail.com"
+  },
+  "keywords": ["nextjs", "react", "app-router", "server-components", "performance"]
+}
