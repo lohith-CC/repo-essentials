@@ -326,6 +326,40 @@ PostToolUse   Write/Edit/MultiEdit  warn-missing-dispose.sh    After writing a .
 
 ---
 
+## Development Flow
+
+```
+ ┌──────────────────────┐      ┌──────────────────────┐      ┌──────────────────────┐      ┌──────────────────────┐
+ │   1. ORG SETUP       │      │  2. PROJECT SETUP    │      │  3. DEV ONBOARDING   │      │  4. CODING SESSION   │
+ │      (done once)      │      │    (once per repo)   │      │   (once per machine) │      │    (every session)   │
+ ├──────────────────────┤      ├──────────────────────┤      ├──────────────────────┤      ├──────────────────────┤
+ │                      │      │                      │      │                      │      │                      │
+ │ Create & push to     │      │ In your project      │      │ Add the marketplace: │      │ Claude Code starts   │
+ │ GitHub:              │      │ repo root:           │      │                      │      │                      │
+ │                      │      │                      │      │  /plugin marketplace │      │ Auto-loads:          │
+ │ repo-essentials/     │      │  CLAUDE.md           │      │  add lohith-CC/      │      │                      │
+ │  ├ repo-essentials   │      │  ─────────────────   │      │  repo-essentials     │      │  ✓ CLAUDE.md         │
+ │  ├ nextjs-essentials │─────▶│  · project stack     │─────▶│                      │─────▶│    project rules &   │
+ │  └ flutter-essentials│      │  · conventions       │      │ Install plugins:     │      │    conventions       │
+ │                      │      │  · hard rules        │      │                      │      │                      │
+ │ marketplace.json     │      │  · architecture      │      │  repo-essentials     │      │  ✓ Skills            │
+ │ lists all 3 plugins  │      │                      │      │  + nextjs-ess.       │      │    /code-review      │
+ │                      │      │ Committed to your    │      │    or flutter-ess.   │      │    /security-audit   │
+ │                      │      │ project repo, not    │      │                      │      │    /pr-description…  │
+ │                      │      │ the plugin repo      │      │                      │      │                      │
+ │                      │      │                      │      │                      │      │  ✓ Hooks auto-fire   │
+ │                      │      │                      │      │                      │      │    on every write    │
+ │                      │      │                      │      │                      │      │                      │
+ │                      │      │                      │      │                      │      │  ✓ MCPs active       │
+ │                      │      │                      │      │                      │      │    context7…         │
+ └──────────────────────┘      └──────────────────────┘      └──────────────────────┘      └──────────────────────┘
+       Plugin source                 Project context              One-time install              All active together
+```
+
+> **Key distinction:** `CLAUDE.md` lives in your **project repo** and holds project-specific context (stack, conventions, rules). Plugins live in the **plugin marketplace repo** and provide reusable skills, hooks, and MCPs. Both are loaded automatically when a session starts — they complement each other.
+
+---
+
 ## Installation Guide
 
 ### Step 1 — Add the marketplace (one-time, per machine)
